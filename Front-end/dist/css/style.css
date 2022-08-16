@@ -1,0 +1,28 @@
+body{
+    background: url(../img/Logos\ y\ mas/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+
+.login-box .avatar{
+    display: block;
+    margin: 0px auto 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+}
+
+.register-box{
+    
+    font-family: inherit;
+    color: inherit;
+    background-color: #fff;
+}
+
+.register-logo .avatar{
+    display: block;
+    margin: 0px auto 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+}
