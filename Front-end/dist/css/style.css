@@ -1,5 +1,5 @@
 body{
-    background: url(../img/Logos\ y\ mas/Fondo.jpg) no-repeat center top;
+    background: url(../img/Logos\ y\ mas/fondoverde.jpg) no-repeat center top;
     background-size: cover;
 }
 
@@ -9,7 +9,7 @@ body{
     margin: 0px auto 10px;
     width: 150px;
     height: 150px;
-    border-radius: 50%; 
+    border-radius: 30%; 
 }
 
 .register-box{
@@ -21,8 +21,134 @@ body{
 
 .register-logo .avatar{
     display: block;
-    margin: 0px auto 10px;
+    margin: 10px auto 10px;
     width: 150px;
     height: 150px;
-    border-radius: 50%; 
+    border-radius: 30%; 
+}
+
+.btne {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primarye {
+    color: #fff;
+    background-color: rgb(22, 202, 133);
+    border-color: rgb(21, 212, 139);
+    box-shadow: none;
+}
+
+.btn-primarye:hover {
+    color: #fff;
+    background-color: #20b2aa;
+    border-color: #20b2aa;
+}
+
+.btn-blocke {
+    display: block;
+    width: 100%;
+}
+
+.btn-blocke + .btn-blocke {
+    margin-top: 0.5rem;
+}
+
+input[type="submit"].btn-blocke,
+input[type="reset"].btn-blocke,
+input[type="button"].btn-blocke {
+width: 100%;
+}
+
+.icheck-primarye > input:first-child:not(:checked):not(:disabled):hover + label::before,
+.icheck-primarye > input:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
+border-color: rgb(22, 202, 133);
+}
+
+.icheck-primarye > input:first-child:not(:checked):not(:disabled):focus + label::before,
+.icheck-primarye > input:first-child:not(:checked):not(:disabled):focus + input[type="hidden"] + label::before {
+border-color: rgb(22, 202, 133);
+}
+
+.icheck-primarye > input:first-child:checked + label::before,
+.icheck-primarye > input:first-child:checked + input[type="hidden"] + label::before {
+background-color: rgb(22, 202, 133);
+border-color: rgb(22, 202, 133);
+}
+
+.enlace{
+    display: block;
+    margin: 0px auto 0px;
+    color:#20b2aa;
+}
+
+.enlace:hover {
+    color: #1da19b;
+}
+
+.enlace2{
+    display: block;
+    margin: -12px auto 0px;
+    color:#20b2aa;
+}
+.enlace2:hover {
+    color: #1da19b;
+}
+
+.enlace3{
+    display: block;
+    margin: 10px auto 0px;
+    color:#20b2aa;
+}
+
+.enlace3:hover {
+    color: #1da19b;
+}
+
+.h1-accidentes{
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+    font-size: 2.5rem;
+}
+.h1-accidentes:hover{
+    color: rgb(22, 202, 133);
+}
+
+.h2-accidentes-registrar{
+    color: black;
+    margin-bottom: 0.5rem;
+    font-family:  inherit;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 2.5rem;
+
+}
+
+.h2-accidentes-registrar:hover{
+    color: rgb(22, 202, 133);
+}
+
+.Letras{
+    color: black;
+}
+
+.Letras:hover{
+    color: #1da19b;
 }
