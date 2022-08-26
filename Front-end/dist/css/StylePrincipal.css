@@ -48,13 +48,48 @@ a{
     text-decoration: none;
 }
 
+.nomasacc{
+    font-size: 3.8rem;
+    color: #fff;
+}
+.nomasacc:hover{
+    color: rgb(22, 202, 133);
+}
 .chat-p{
     font-size: 2rem;
     font-weight: 300;
 }
+.texto-p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.precio{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.precio:hover{
+    color: rgb(22, 202, 133);
+}
 .titulo-h{
     padding-top: 1rem;
     font-size: 3rem;
+    font-weight: 300;
+}
+.titulo-h-us{
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(22, 202, 133);
+}
+.sub{
+    color: rgb(22, 202, 133);
+}
+.titulo-s{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2.5rem;
     font-weight: 300;
 }
 .contactanos-t{
@@ -72,6 +107,11 @@ a{
 .fw-300{
     font-size: 4.2rem;
     font-weight: 300;
+}
+.fw-300-2{
+    font-size: 4.2rem;
+    font-weight: 300;
+    color: rgb(22, 202, 133);
 }
 .centrar-texto{
     text-align: center;
@@ -101,6 +141,7 @@ a{
         flex: 0 0 auto;
     }
 }
+
 .boton:hover{
     cursor: pointer;
 }
@@ -177,8 +218,9 @@ a{
     }
 }
 .navegacion a:hover{
-    color: rgb(22, 202, 133);
+    color: rgb(9, 252, 159);
 }
+
 .mobile-menu img{
     width:5rem
 }
@@ -190,14 +232,14 @@ a{
 .navegacion:target{
     display: block;
 }
-.nacegacion{
-    display: none;
-}
+
 @media (min-width:768px){
-    .nacegacion{
+    .navegacion{
         display: block;
     }
 }
+
+
 @media (min-width:768px){
     .iconos-nosotros{
         display: flex;
@@ -287,4 +329,10 @@ a{
 .copyright{
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+.icono-us{
+    text-align: center;
+    margin:auto; 
+    padding: 1em 1em;
 }
