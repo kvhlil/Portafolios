@@ -188,7 +188,7 @@ a{
     background-size: cover;
     background-color: rgb(50,50,50);
     background-blend-mode: soft-light;
-    min-height: 60rem;
+    min-height: 44rem;
 }
 .contenido-header{
     height: 100%;
@@ -503,4 +503,23 @@ a{
     text-align: left;
     font-size: 1.3rem;
     font-weight: 300;
+}
+
+.servicios-p2{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300
+}
+.servicios-p3{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-right: 22px;
+}
+
+.mapa{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
