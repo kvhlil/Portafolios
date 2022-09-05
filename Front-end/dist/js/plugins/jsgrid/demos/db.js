@@ -41,20 +41,20 @@
 
     db.clients = [
         {
-            "Name": "Servicio 1",
-            "Usuario": "Usuario 1",
+            "Nombre Empresa": "Empresa 1",
+            "Servicio": "Ergonomía",
             "Descripcion": "Servicio de ejemplo",
             "Activo": true
         },
         {
-            "Name": "Servicio 2",
-            "Usuario": "Usuario 2",
+            "Nombre Empresa": "Empresa 2",
+            "Servicio": "Prevención de Riesgos",
             "Descripcion": "Servicio de ejemplo",
-            "Activo": false
+            "Activo": true
         },
         {
-            "Name": "Servicio 3",
-            "Usuario": "Usuario 3",
+            "Nombre Empresa": "Empresa 3",
+            "Servicio": "Protocolo Covid 19",
             "Descripcion": "Servicio de ejemplo",
             "Activo": true
         },

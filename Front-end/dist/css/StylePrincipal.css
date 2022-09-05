@@ -12,10 +12,18 @@ body{
     font-size: 1.6rem;
     line-height: 2;
     background: #232220 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
 
 img{
     max-width: 100%;
+}
+
+.logo-mobile{
+    border-radius: 50%;
 }
 
 .contenedor{
@@ -332,10 +340,8 @@ a{
 }
 
 .site-footer-2{
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    margin-top: auto;
 }
 .contenedor-footer{
     padding: 3rem 0;
@@ -354,8 +360,20 @@ a{
 @media(min-width: 768px){
     .site-footer nav{
         display: block;
+        
     }
 }
+
+.site-footer-2 nav{
+    display: none;
+
+}
+@media(min-width: 768px){
+    .site-footer-2 nav{
+        display: block;     
+    }
+}
+
 .copyright{
     font-size: 1.6rem;
     font-weight: 300;

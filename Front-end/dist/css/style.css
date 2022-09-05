@@ -7,9 +7,9 @@ body{
 .login-box .avatar{
     display: block;
     margin: 0px auto 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 30%; 
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
 }
 
 .register-box{
@@ -22,9 +22,9 @@ body{
 .register-logo .avatar{
     display: block;
     margin: 10px auto 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 30%; 
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
 }
 
 .btne {
