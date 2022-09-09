@@ -56,7 +56,7 @@
             "Nombre Empresa": "Empresa 3",
             "Servicio": "Protocolo Covid 19",
             "Descripcion": "Servicio de ejemplo",
-            "Activo": true
+            "Activo": false
         },
     ];
 
